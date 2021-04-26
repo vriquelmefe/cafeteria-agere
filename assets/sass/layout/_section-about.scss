@@ -1,0 +1,18 @@
+.section-about {
+    clear: both;
+    width: 100%;
+    &__description {
+        width: 40%;
+        padding-top: 20px;
+        padding-left: 50px;
+        &-font {
+            font-family: $roboto;
+            width: 85%;
+            line-height: 1;
+        }
+    }
+    &__tittle {
+        font-size: $x-large;
+        width: 100%;
+    }
+}

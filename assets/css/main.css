@@ -9939,46 +9939,96 @@ body {
 }
 
 .navigation {
-  height: 70px;
-  margin: 0;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: baseline;
 }
 .navigation__logo-image {
-  height: 60px;
+  height: 50px;
   float: left;
   margin-right: 30px;
-  margin-top: -20px;
 }
 .navigation__ul {
   list-style: none;
-  margin-top: 20px;
 }
 .navigation__item-list {
   margin-right: 30px;
   float: left;
   color: #989797;
+  margin-top: 10px;
 }
 .navigation__btn {
   float: right;
   margin-right: 30px;
 }
-.navigation__container {
-  margin-top: 30px;
+
+.header {
+  width: 100%;
+  margin: 0;
+}
+.header__container-image {
+  width: 70%;
+  float: left;
+}
+.header__tittle {
+  text-align: center;
+  padding-top: 40px;
+  display: inline-block;
+  padding-left: 50px;
+  text-align: left;
+}
+.header__tittle h5 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-about {
+  clear: both;
+  width: 100%;
+}
+.section-about__description {
+  width: 40%;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.section-about__description-font {
+  font-family: "Roboto", sans-serif;
+  width: 85%;
+  line-height: 1;
+}
+.section-about__tittle {
+  font-size: 30px;
+  width: 100%;
+}
+
+.navigation__btn {
+  box-sizing: border-box;
 }
 
 .navigation__btn-color {
   background-color: #fff;
   border: 1px solid #989797;
-  height: 30px;
+  height: 35px;
   font-family: "PT Mono", monospace;
-  color: "PT Mono", monospace;
+  color: #989797;
+}
+.navigation__btn-color:hover {
+  border: 1px solid #000000;
+  color: #000000;
 }
 
 .navigation__btn__color-verde {
   background-color: #4ca866;
   color: #fff;
-  height: 30px;
+  height: 35px;
   border: 1px solid #4ca866;
   font-family: "PT Mono", monospace;
+}
+.navigation__btn__color-verde:hover {
+  background-color: #9dcfab;
+  color: #000000;
+  border: 1px solid #9dcfab;
 }
 
 /*# sourceMappingURL=main.css.map */

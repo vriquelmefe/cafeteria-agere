@@ -1,26 +1,24 @@
 .navigation {
-    height: 70px;
-    margin: 0;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: baseline;
     &__logo-image {
-        height: 60px;
+        height: 50px;
         float: left;
         margin-right: 30px;
-        margin-top: -20px;
     }
     &__ul {
         list-style: none;
-        margin-top: 20px;
     }
     &__item-list {
         margin-right: 30px;
         float: left;
         color: $spanish-gray;
+        margin-top: 10px;
     }
     &__btn {
         float: right;
         margin-right: 30px;
-    }
-    &__container {
-        margin-top: 30px;
     }
 }
