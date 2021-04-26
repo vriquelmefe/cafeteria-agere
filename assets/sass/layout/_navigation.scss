@@ -1,14 +1,26 @@
 .navigation {
-    margin: 20px;
-    display: inline;
     height: 70px;
     margin: 0;
-    &__ul {
-        display: inline;
-        margin: 0;
+    &__logo-image {
+        height: 60px;
+        float: left;
+        margin-right: 30px;
+        margin-top: -20px;
     }
-}
-
-.navigation__logo {
-    height: 40px;
+    &__ul {
+        list-style: none;
+        margin-top: 20px;
+    }
+    &__item-list {
+        margin-right: 30px;
+        float: left;
+        color: $spanish-gray;
+    }
+    &__btn {
+        float: right;
+        margin-right: 30px;
+    }
+    &__container {
+        margin-top: 30px;
+    }
 }
