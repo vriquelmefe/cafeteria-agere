@@ -1,0 +1,14 @@
+.navigation {
+    margin: 20px;
+    display: inline;
+    height: 70px;
+    margin: 0;
+    &__ul {
+        display: inline;
+        margin: 0;
+    }
+}
+
+.navigation__logo {
+    height: 40px;
+}
