@@ -9939,10 +9939,11 @@ body {
 }
 
 .navigation {
-  height: 50px;
+  height: 70px;
   margin-left: 20px;
   margin-right: 20px;
   vertical-align: baseline;
+  overflow: hidden;
 }
 .navigation__logo-image {
   height: 50px;
